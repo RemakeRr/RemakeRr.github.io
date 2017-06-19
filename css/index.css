@@ -181,7 +181,7 @@ header {
     grid-template-rows: 50% 50%;
     height: 100vh; }
     .works__g:hover {
-      box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.8);
+      box-shadow: 0 0 0 9999px #2c2c2c;
       transition: 0.3s; }
   .works__g-1 {
     background-image: url(../images/login.png);
