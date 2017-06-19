@@ -12,7 +12,8 @@
 
 body {
   font-family: Helvetica-Regular;
-  user-select: none; }
+  user-select: none;
+  background-color: #2c2c2c; }
 
 header {
   height: 40vh;
@@ -20,7 +21,8 @@ header {
   background-image: url(../images/c-header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 60%; }
+  background-position-y: 60%;
+  background-color: #2c2c2c; }
 
 .header-h1-container {
   height: 21vh;
@@ -40,23 +42,35 @@ header {
   background-color: #2c2c2c;
   color: #fff;
   user-select: none; }
+  .nav__logo {
+    height: 60px;
+    padding-top: 10px;
+    font-family: Helvetica-Medium;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 .nav__links {
-  height: 60px;
+  height: 30px;
+  padding-top: 30px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   cursor: pointer; }
-  .nav__links:hover {
-    background-color: #2c2c2c;
-    color: #fff;
-    text-decoration: underline;
-    transition: 0.5s; }
   .nav__links-a {
+    font-family: Helvetica-Medium;
     font-size: 16px;
-    font-family: Helvetica-Regular;
-    text-decoration: none;
-    color: #fff; }
+    text-decoration: none; }
+    .nav__links-a a {
+      text-decoration: none;
+      color: #bababa; }
+      .nav__links-a a.active {
+        font-family: Helvetica-Medium;
+        color: #fff; }
+      .nav__links-a a:hover {
+        color: #fff;
+        transition: .2s; }
 
 .nav__socials {
   height: 60px;
@@ -84,6 +98,9 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
+
+.main {
+  background-color: #fff; }
 
 .form {
   margin-top: 70px; }

@@ -12,15 +12,26 @@
     </title>
   <link href="./css/common.css" rel="stylesheet"><link href="./css/contacts.css" rel="stylesheet"></head>
   <body>
-    <header>
+    <header class="animated fadeIn">
       <div class="nav">
-        <div class="container">
-          <div class="col-md-4">
-            <div class="col-md-4 nav__links"><a class="nav__links-a" href="#">Обо мне                                </a></div>
-            <div class="col-md-4 nav__links"><a class="nav__links-a" href="#">Проекты                                 </a></div>
-            <div class="col-md-4 nav__links"><a class="nav__links-a" href="contacts.html">Контакты    </a></div>
+        <div class="container-fluid">
+          <div class="col-md-3">
+            <div class="col-md-4 nav__links">
+              <div class="nav__links-a"><a href="index.html">Главная                                </a></div>
+            </div>
+            <div class="col-md-4 nav__links">
+              <div class="nav__links-a"><a href="#">Работы                                 </a></div>
+            </div>
+            <div class="col-md-4 nav__links">
+              <div class="nav__links-a"><a class="active" href="contacts.html">Контакты</a></div>
+            </div>
           </div>
-          <div class="col-md-3 col-md-offset-5 nav__socials"><a href="https://www.instagram.com/lbklbkk/" target="blank">
+          <div class="col-md-2 col-md-offset-2">
+            <div class="nav__logo">
+              <p>lbkk.</p>
+            </div>
+          </div>
+          <div class="col-md-2 col-md-offset-3 nav__socials"><a href="https://www.instagram.com/lbklbkk/" target="blank">
               <div class="nav__socials-inst"></div></a><a href="https://www.behance.net/remakerr" target="blank">
               <div class="nav__socials-beh"></div></a><a href="https://vk.com/bigremake" target="blank">   
               <div class="nav__socials-vk"> </div></a></div>
@@ -32,17 +43,17 @@
         </div>
       </div>
     </header>
-    <section class="main">
+    <section class="main animated fadeIn">
       <div class="container">
         <div class="row">
           <div class="col-md-6 form">
-            <div class="form-group">
+            <div class="form-group animated fadeIn">
               <input class="form-control form__email" type="email" placeholder="Ввести e-mail" id="email">
               <input class="form-control form__comment" type="text" rows="5" id="comment">
               <button class="col-md-3 col-md-offset-9 text-center form__btn" type="submit">Отправить</button>
             </div>
           </div>
-          <div class="col-md-5 col-md-offset-1 avatar"></div>
+          <div class="col-md-5 col-md-offset-1 avatar animated fadeIn"></div>
         </div>
       </div>
     </section>
