@@ -62,22 +62,22 @@ header {
   justify-content: space-around;
   align-items: center; }
   .nav__socials-inst {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background-image: url(../images/instagram.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
   .nav__socials-beh {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background-image: url(../images/behance.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
   .nav__socials-vk {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background-image: url(../images/vk.png);
     background-size: contain;
     background-repeat: no-repeat;
