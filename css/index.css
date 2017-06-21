@@ -20,6 +20,7 @@ header {
   padding-top: 10vh;
   background-image: url(../images/header-bg.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat; }
 
 .nav {
@@ -187,7 +188,11 @@ header {
   .works__h2 {
     font-family: Helvetica-Medium; }
   .works__g {
+    background-color: relative;
+    width: 80vw;
     margin-top: 150px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
@@ -254,7 +259,16 @@ header {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .header-h-text {
-    color: blue; }
+    color: blue;
+    font-size: 10vh; }
+  .nav__logo {
+    display: none; }
+  .nav__socials {
+    padding: 40px; }
+  .about-img {
+    display: none; }
+  .about__icons {
+    display: inline-block; }
   .about__h2 {
     font-size: 40px; }
   .about__p {
@@ -266,17 +280,29 @@ header {
   .about__icons-dev {
     height: 60px; }
   .about__icons-p {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .works {
+    padding: 50px 0 50px 0; }
+  .works__g {
+    margin-top: 50px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .header-h-text {
-    color: green; } }
+    color: green; }
+  .about-img {
+    display: none; }
+  .about__h2, .about__p {
+    text-align: left; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .header-h-text {
-    color: orange; } }
+    color: orange; }
+  .about-img {
+    display: none; }
+  .about__h2, .about__p {
+    text-align: center; } }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
