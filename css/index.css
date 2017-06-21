@@ -289,7 +289,10 @@ header {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .header-h-text {
-    color: green; }
+    color: green;
+    font-size: 10vh; }
+  .nav__logo {
+    display: none; }
   .about-img {
     display: none; }
   .about__h2, .about__p {
@@ -297,6 +300,8 @@ header {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
+  .about-img {
+    display: none; }
   .header-h-text {
     color: orange; }
   .about-img {
