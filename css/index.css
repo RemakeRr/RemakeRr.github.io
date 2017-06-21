@@ -252,20 +252,16 @@ header {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .header-h-text {
-    color: red; } }
+  /**/ }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .header-h-text {
-    color: blue;
     font-size: 10vh; }
   .nav__logo {
     display: none; }
   .nav__socials {
     padding: 40px; }
-  .about-img {
-    display: none; }
   .about__h2 {
     font-size: 40px;
     text-align: center; }
@@ -288,7 +284,6 @@ header {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .header-h-text {
-    color: green;
     font-size: 10vh; }
   .nav__logo {
     display: none; }
@@ -299,12 +294,7 @@ header {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-  .header-h-text {
-    color: orange; }
-  .about-img {
-    display: none; }
-  .about-img {
-    display: none; } }
+  /**/ }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
