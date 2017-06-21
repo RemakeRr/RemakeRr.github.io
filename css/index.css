@@ -188,7 +188,6 @@ header {
   .works__h2 {
     font-family: Helvetica-Medium; }
   .works__g {
-    background-color: relative;
     width: 80vw;
     margin-top: 150px;
     margin-left: 10vw;
@@ -267,12 +266,12 @@ header {
     padding: 40px; }
   .about-img {
     display: none; }
-  .about__icons {
-    display: inline-block; }
   .about__h2 {
-    font-size: 40px; }
+    font-size: 40px;
+    text-align: center; }
   .about__p {
-    font-size: 16px; }
+    font-size: 16px;
+    text-align: center; }
   .about__icons-design {
     height: 60px; }
   .about__icons-adaptive {
@@ -296,18 +295,16 @@ header {
   .about-img {
     display: none; }
   .about__h2, .about__p {
-    text-align: left; } }
+    text-align: center; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-  .about-img {
-    display: none; }
   .header-h-text {
     color: orange; }
   .about-img {
     display: none; }
-  .about__h2, .about__p {
-    text-align: center; } }
+  .about-img {
+    display: none; } }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
