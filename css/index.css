@@ -314,8 +314,7 @@ header {
   .contact {
     padding-top: 250px; }
     .contact .contact-hero-e {
-      font-size: 4vh;
-      color: orange; } }
+      font-size: 4vh; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
@@ -324,8 +323,7 @@ header {
     .contact .contact-hero-t {
       font-size: 5vh; }
     .contact .contact-hero-e {
-      font-size: 4vh;
-      color: red; } }
+      font-size: 4vh; } }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
