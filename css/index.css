@@ -317,8 +317,10 @@ header {
 @media only screen and (max-width: 320px) {
   .contact {
     padding-top: 400px; }
+    .contact .contact-hero-t {
+      font-size: 4vh; }
     .contact .contact-hero-e {
-      font-size: 4vh; } }
+      font-size: 3vh; } }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
